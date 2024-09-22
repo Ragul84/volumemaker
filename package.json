@@ -1,0 +1,38 @@
+{
+  "name": "telegram-typescript-bot-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "@dedust/sdk": "^0.8.7",
+    "@grammyjs/conversations": "^1.2.0",
+    "@grammyjs/i18n": "^1.0.1",
+    "@grammyjs/stateless-question": "^3.0.1",
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ston-fi/api": "^0.9.0",
+    "@ston-fi/sdk": "^2.0.0-rc.2",
+    "@ton/core": "^0.56.3",
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^14.0.0",
+    "buffer": "^6.0.3",
+    "dotenv": "^16.3.1",
+    "grammy": "^1.19.2",
+    "grammy-inline-menu": "^8.0.1",
+    "grammy-middlewares": "^1.0.11",
+    "mongoose": "^8.0.2",
+    "node-cron": "^3.0.3",
+    "telegraf-middleware-console-time": "^2.1.0"
+  }
+}
